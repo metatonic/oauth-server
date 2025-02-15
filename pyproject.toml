@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "supa-integrations"
+version = "0.1.0"
+description = ""
+authors = ["Matthew Beatty <beattyml1@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+flask = "^3.1.0"
+sqlalchemy = "^2.0.37"
+authlib = "^1.4.1"
+joserfc = "^1.0.2"
+pgalchemy = "^0.1.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
